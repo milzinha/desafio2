@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Educação de Qualidade</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
 	</head>
 	<body>
 		<header>
@@ -15,10 +16,10 @@
 				/>
 			</div>
 			<ul id="menu">
-				<li>ODS</li>
-				<li>Educação</li>
-				<li>Propostas</li>
-				<li>Sobre</li>
+				<li class="nav">ODS</li>
+				<li class="nav">Educação</li>
+				<li class="nav">Propostas</li>
+				<li class="nav">Sobre</li>
 			</ul>
 		</header>
 		<section id="ods">
@@ -34,7 +35,7 @@
 					Como as Nações Unidas apoiam os Objetivos de Desenvolvimento
 					Sustentável no Brasil
 				</h2>
-				<p>
+				<p class="texto">
 					Os Objetivos de Desenvolvimento Sustentável são um apelo
 					global à ação para acabar com a pobreza, proteger o meio
 					ambiente e o clima e garantir que as pessoas, em todos os
@@ -46,28 +47,33 @@
 			</div>
 		</section>
 		<section id="videoods">
-			<iframe
-				width="560"
-				height="315"
-				src="https://www.youtube.com/embed/u2K0Ff6bzZ4"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			></iframe>
+			<div id="iframe">
+				<iframe
+					width="100%"
+					height="315"
+					src="https://www.youtube.com/embed/u2K0Ff6bzZ4"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div id="textoiframe">
+				<p>
+					A ONU e seus parceiros no Brasil estão trabalhando para
+					atingir os Objetivos de Desenvolvimento Sustentável. São 17
+					objetivos ambiciosos e interconectados que abordam os
+					principais desafios de desenvolvimento enfrentados por
+					pessoas no Brasil e no mundo.
+				</p>
 
-			<p>
-				A ONU e seus parceiros no Brasil estão trabalhando para atingir
-				os Objetivos de Desenvolvimento Sustentável. São 17 objetivos
-				ambiciosos e interconectados que abordam os principais desafios
-				de desenvolvimento enfrentados por pessoas no Brasil e no mundo.
-			</p>
-
-			<p>
-				Dentre eles, destacamos o objetivo 4: Assegurar a educação
-				inclusiva e equitativa e de qualidade, e promover oportunidades
-				de aprendizagem ao longo da vida para todas e todos.
-			</p>
+				<p>
+					Dentre eles, destacamos o objetivo 4: Assegurar a educação
+					inclusiva e equitativa e de qualidade, e promover
+					oportunidades de aprendizagem ao longo da vida para todas e
+					todos.
+				</p>
+			</div>
 		</section>
 		<section id="educacao1a7">
 			<div id="eduquali">
@@ -80,11 +86,11 @@
 						src="./assets/imgs/icones/icone4-1.png"
 						alt="Ícone meta 4.1"
 					/>
-					<p>
-						4.1 Até 2030, garantir que todas as meninas e meninos
-						completem o ensino primário e secundário livre,
-						equitativo e de qualidade, que conduza a resultados de
-						aprendizagem relevantes e eficazes.
+					<p class="txtcard">
+						<strong>4.1</strong> Até 2030, garantir que todas as
+						meninas e meninos completem o ensino primário e
+						secundário livre, equitativo e de qualidade, que conduza
+						a resultados de aprendizagem relevantes e eficazes.
 					</p>
 				</div>
 				<div class="card">
@@ -93,11 +99,12 @@
 						src="./assets/imgs/icones/icone4-2.png"
 						alt="Ícone meta 4.2"
 					/>
-					<p>
-						4.2 Até 2030, garantir que todos as meninas e meninos
-						tenham acesso a um desenvolvimento de qualidade na
-						primeira infância, cuidados e educação pré-escolar, de
-						modo que eles estejam prontos para o ensino primário.
+					<p class="txtcard">
+						<strong>4.2</strong> Até 2030, garantir que todos as
+						meninas e meninos tenham acesso a um desenvolvimento de
+						qualidade na primeira infância, cuidados e educação
+						pré-escolar, de modo que eles estejam prontos para o
+						ensino primário.
 					</p>
 				</div>
 				<div class="card">
@@ -106,11 +113,11 @@
 						src="./assets/imgs/icones/icone4-3.png"
 						alt="Ícone meta 4.3"
 					/>
-					<p>
-						4.3 Até 2030, assegurar a igualdade de acesso para todos
-						os homens e mulheres à educação técnica, profissional e
-						superior de qualidade, a preços acessíveis, incluindo
-						universidade.
+					<p class="txtcard">
+						<strong>4.3</strong> Até 2030, assegurar a igualdade de
+						acesso para todos os homens e mulheres à educação
+						técnica, profissional e superior de qualidade, a preços
+						acessíveis, incluindo universidade.
 					</p>
 				</div>
 				<div class="card">
@@ -119,11 +126,12 @@
 						src="./assets/imgs/icones/icone4-4.png"
 						alt="Ícone meta 4.4"
 					/>
-					<p>
-						4.4 Até 2030, aumentar substancialmente o número de
-						jovens e adultos que tenham habilidades relevantes,
-						inclusive competências técnicas e profissionais, para
-						emprego, trabalho decente e empreendedorismo.
+					<p class="txtcard">
+						<strong>4.4</strong> Até 2030, aumentar substancialmente
+						o número de jovens e adultos que tenham habilidades
+						relevantes, inclusive competências técnicas e
+						profissionais, para emprego, trabalho decente e
+						empreendedorismo.
 					</p>
 				</div>
 				<div class="card">
@@ -132,12 +140,13 @@
 						src="./assets/imgs/icones/icone4-5.png"
 						alt="Ícone meta 4.5"
 					/>
-					<p>
-						4.5 Até 2030, eliminar as disparidades de gênero na
-						educação e garantir a igualdade de acesso a todos os
-						níveis de educação e formação profissional para os mais
-						vulneráveis, incluindo as pessoas com deficiência, povos
-						indígenas e as crianças em situação de vulnerabilidade.
+					<p class="txtcard">
+						<strong>4.5</strong> Até 2030, eliminar as disparidades
+						de gênero na educação e garantir a igualdade de acesso a
+						todos os níveis de educação e formação profissional para
+						os mais vulneráveis, incluindo as pessoas com
+						deficiência, povos indígenas e as crianças em situação
+						de vulnerabilidade.
 					</p>
 				</div>
 				<div class="card">
@@ -146,11 +155,11 @@
 						src="./assets/imgs/icones/icone4-6.png"
 						alt="Ícone meta 4.6"
 					/>
-					<p>
-						4.6 Até 2030, garantir que todos os jovens e uma
-						substancial proporção dos adultos, homens e mulheres
-						estejam alfabetizados e tenham adquirido o conhecimento
-						básico de matemática.
+					<p class="txtcard">
+						<strong>4.6</strong> Até 2030, garantir que todos os
+						jovens e uma substancial proporção dos adultos, homens e
+						mulheres estejam alfabetizados e tenham adquirido o
+						conhecimento básico de matemática.
 					</p>
 				</div>
 				<div class="card">
@@ -159,16 +168,16 @@
 						src="./assets/imgs/icones/icone4-7.png"
 						alt="Ícone meta 4.7"
 					/>
-					<p>
-						4.7 Até 2030, garantir que todos os alunos adquiram
-						conhecimentos e habilidades necessárias para promover o
-						desenvolvimento sustentável, inclusive, entre outros,
-						por meio da educação para o desenvolvimento sustentável
-						e estilos de vida sustentáveis, direitos humanos,
-						igualdade de gênero, promoção de uma cultura de paz e
-						não violência, cidadania global e valorização da
-						diversidade cultural e da contribuição da cultura para o
-						desenvolvimento sustentável.
+					<p class="txtcard">
+						<strong>4.7</strong> Até 2030, garantir que todos os
+						alunos adquiram conhecimentos e habilidades necessárias
+						para promover o desenvolvimento sustentável, por meio da
+						educação para o desenvolvimento sustentável e estilos de
+						vida sustentáveis, direitos humanos, igualdade de
+						gênero, promoção de uma cultura de paz e não violência,
+						cidadania global e valorização da diversidade cultural e
+						da contribuição da cultura para o desenvolvimento
+						sustentável.
 					</p>
 				</div>
 			</div>
